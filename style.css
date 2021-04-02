@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color:#00ff26;
+    height: 100%;
+    width: 100%;
+
+}
+
+.row {
+    border-color: brown;
+    flex-direction: row;
+    flex-grow: 1;
+    display: flex;
+}
+
+.column {
+    border-color: brown;
+    flex-grow: 1;
+}
+
+
